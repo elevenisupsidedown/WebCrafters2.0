@@ -1,0 +1,64 @@
+/*Timeline*/
+.timeline{
+    width: 80%;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    border-left: 0.2vw solid #bcfff15d;
+}
+
+.timeline-event{
+    transform: translateY(0);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.timeline-event h2{
+    color: white;
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    margin: 0;
+    font-size: 2.5vw;
+}
+
+.timeline-event h1{
+    color: white;
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    margin: 0;
+    font-size: 2.5vw;
+}
+
+.timeline-event p{
+    color: white;
+    font-family: "Nunito", system-ui;
+    font-weight: 300;
+    margin-top: 1vw;
+    font-size: 1.8vw;
+}
+
+.timeline-event::before{
+    content: '';
+    width: 2vw;
+    height: 2vw;
+    background-image: linear-gradient(90deg, #ff5a99, #ff5aff, #8d6cb2, #63A7CF);
+    border-radius: 50%;
+    position: absolute;
+    left: -2.5vw;
+}
+
+.clearfix::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+.clearfix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
