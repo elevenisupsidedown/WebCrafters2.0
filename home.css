@@ -119,20 +119,20 @@ a{
 li a:hover{
     text-decoration: underline;
     text-underline-offset: 12px;
-    text-decoration-color: #7790BB;
+    text-decoration-color: #8d6cb2ad;
     text-decoration-thickness: 0.2vw;
 }
 
 li:nth-child(2) a{
     text-decoration: underline;
     text-underline-offset: 12px;
-    text-decoration-color: #7790BB;;
+    text-decoration-color: #8d6cb2ad;;
     text-decoration-thickness: 0.2vw;
 }
 
 li:nth-child(1) a:hover{
     text-decoration: underline;
     text-underline-offset: 12px;
-    text-decoration-color: #7790BB;;
+    text-decoration-color: #8d6cb2ad;;
     text-decoration-thickness: 0.2vw;
 }

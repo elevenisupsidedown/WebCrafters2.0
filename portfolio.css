@@ -1,0 +1,41 @@
+.portfolio2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card1 {
+    width: 250px;
+    margin: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s;
+    background-color: #1c1f2b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card1 img {
+    width: 100%;
+    height: auto;
+    transition: filter 0.5s ease;
+    filter: blur(4px);
+}
+
+.card1:hover img,
+.card1:focus img {
+    filter: blur(0);
+}
+
+.card1:hover {
+    transform: scale(1.05);
+}
+
+h3 {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
