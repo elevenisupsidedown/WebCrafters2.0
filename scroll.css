@@ -1,0 +1,49 @@
+body {
+    height: 2000px; /* Make the page scrollable */
+    margin: 0;
+    padding: 0;
+}
+
+.moving-element {
+    position: sticky;
+    top: 50%; /* Keeps the element sticky in the middle */
+    width: 100px;
+    height: 100px;
+    background-color: #63A7CF;
+    transform: translateX(0); /* Start position */
+    transition: transform 0.3s ease-out;
+}
+
+section {
+    height: 100vh;
+}
+
+.scroll-container {
+    position: relative;
+    width: 100%;
+    height: 150vh;
+}
+
+.scroll-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 200%;
+}
+
+/* Animation keyframes to move left-right */
+@keyframes moveHorizontally {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(80vw); /* Moves to the right 80% of the viewport */
+    }
+}
+
+/* Sticky scrolling effect */
+.scroll-container {
+    animation: moveHorizontally 2s linear infinite;
+    scroll-behavior: smooth;
+}
