@@ -45,7 +45,7 @@ html, body{
     font-size: 5.5vw;
     margin-top: 0.8vw;
     line-height: 7vw;
-    background-image: linear-gradient(to right, #F63C83, #E03E89, #C9549A, #B26CAF, #9081B1, #7790BB, #63A7CF, #3BBCE3, #1FDAFF);
+    background-image: linear-gradient(to right, #E03E89, #C9549A, #B26CAF, #9081B1, #7790BB, #63A7CF, #3BBCE3, #1FDAFF);
     background-clip: text;
     color: transparent;
 }
@@ -105,7 +105,7 @@ ul{
 li{
     float:left;
     padding: 2vw;
-    font-size: 1.8vw; 
+    font-size: 1.4vw; 
     color:rgb(255, 255, 255);
 }
 

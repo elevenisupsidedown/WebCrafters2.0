@@ -18,17 +18,18 @@
     grid-row: 2 / 3;
 }
 
+
 .item:hover {
     box-shadow:
         inset 0 0 0 transparent,
         inset 0 0 0 transparent,
         inset 0 0 0 transparent,
         inset 0 0 0 transparent,
-        0 0 20px silver;
+        0 0 5vh rgba(95, 169, 253, 0.178);
     color: transparent;
 }
 
-.section1 {
+.section1, .section2 {
     --itemWidth: min(300px, 30vw);
     --itemWidthMinus: calc(-1 * var(--itemWidth));
     height: max-content;
@@ -36,19 +37,52 @@
     display: grid;
     grid-template-rows: repeat(2, max-content);
     grid-template-columns: repeat(3, calc(3vw + var(--itemWidth)));
-    font-family: 'Averia Serif Libre';
+    justify-content: center;
+    align-content: center;
+    margin: 2rem 0;
 }
 
-.item:first-of-type {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/New_York_Times_T_icon.svg/359px-New_York_Times_T_icon.svg.png);
+
+.section1 > .item:first-of-type {
+    background-image: url(Assets/1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.item:nth-of-type(2) {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/bf/Washington_Post_favicon.png);
+.section1 > .item:nth-of-type(2) {
+    background-image: url(Assets/2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.item:nth-of-type(3) {
-    background-image: url(https://pbs.twimg.com/profile_images/1043218383141928961/i7P3LHYw_400x400.jpg);
+.section1 > .item:nth-of-type(3) {
+    background-image: url(Assets/3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section1 > .item:first-of-type {
+    background-image: url(Assets/4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section2 > .item:nth-of-type(2) {
+    background-image: url(Assets/5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section2 > .item:nth-of-type(3) {
+    background-image: url(Assets/6.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .item>span {
