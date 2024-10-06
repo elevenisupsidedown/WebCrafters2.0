@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="aboutus.css">
     <link rel="stylesheet" href="solutions.css">
+    <link rel="stylesheet" href="loader.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="cardanimnew.css">
+    <link rel="stylesheet" href="contactus.css">
     <link rel="icon" type="image" href=""/>
     <!--Poppins Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,6 +28,9 @@
 </head>
 
 <body>
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
     <nav id="navbar" class="navbar">
         <ul>
             <li class="logo"><a href="" target="_blank"><img id="logoimg" class="logoimg" src="../Assets/logowhite.png" alt="logo"></a></li>
@@ -87,8 +94,9 @@
 </div>
 
 <!--Solutions section-->
+<section class="sectiondiv">
 <div class="card-container" id="target-section">
-    <div class="card">
+    <div class="card" data-aos="fade-up">
         <img src="Assets/network.png" alt="Network Security">
         <div class="card-content">
             <h3>Network Security</h3>
@@ -96,7 +104,7 @@
         </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="fade-up">
         <img src="Assets/endpoint.png" alt="Endpoint Protection">
         <div class="card-content">
             <h3>Endpoint Protection</h3>
@@ -104,7 +112,7 @@
         </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="fade-up">
         <img src="Assets/response.png" alt="Incident Response">
         <div class="card-content">
             <h3>Incident Response</h3>
@@ -112,7 +120,7 @@
         </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="fade-up">
         <img src="Assets/cloud.png" alt="Cloud Security">
         <div class="card-content">
             <h3>Cloud Security</h3>
@@ -120,7 +128,7 @@
         </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="fade-up">
         <img src="Assets/testing.png" alt="Penetration Testing">
         <div class="card-content">
             <h3>Penetration Testing</h3>
@@ -128,7 +136,7 @@
         </div>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="fade-up">
         <img src="Assets/training.png" alt="Security Training">
         <div class="card-content">
             <h3>Security Training</h3>
@@ -136,12 +144,160 @@
         </div>
     </div>
 
-
 </div>
+</section>
 
 <!--Portfolio-->
+<section class="sectiondiv">
+<h1 class="sectionh1">Explore our Portfolio</h1>
+<div class="card-container" id="target-section">
+    <div class="card" data-aos="fade-up">
+        <img src="Assets/network.png" alt="Network Security">
+        <div class="card-content">
+            <h3>Website 1</h3>
+            </div>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+        <img src="Assets/endpoint.png" alt="Endpoint Protection">
+        <div class="card-content">
+            <h3>Website 1</h3>
+            </div>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+        <img src="Assets/response.png" alt="Incident Response">
+        <div class="card-content">
+            <h3>Website 1</h3>
+            </div>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+        <img src="Assets/cloud.png" alt="Cloud Security">
+        <div class="card-content">
+            <h3>Website 1</h3>
+            </div>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+        <img src="Assets/testing.png" alt="Penetration Testing">
+        <div class="card-content">
+            <h3>Website 1</h3>
+            </div>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+        <img src="Assets/training.png" alt="Security Training">
+        <div class="card-content">
+            <h3>Website 1</h3>
+            </div>
+    </div>
+</section>
+
+
+<!--Portfolio Alternative-->
+<section class="portfolio2">
+<div class="card1" tabindex="0">
+    <img src="https://via.placeholder.com/250" alt="Card Image 1">
+    <h3>Card 1</h3>
+  </div>
+  <div class="card1" tabindex="0">
+    <img src="https://via.placeholder.com/250" alt="Card Image 2">
+    <h3>Card 2</h3>
+  </div>
+  <div class="card1" tabindex="0">
+    <img src="https://via.placeholder.com/250" alt="Card Image 3">
+    <h3>Card 3</h3>
+  </div>
+  <div class="card1" tabindex="0">
+    <img src="https://via.placeholder.com/250" alt="Card Image 4">
+    <h3>Card 4</h3>
+  </div>
+</section>
+
+
+<!--Team-->
+<h3>For team section (To be captioned with post name)</h3>
+<div class="container">
+  <section class="section1">
+    <div class="item">
+      <span>Post Name 1</span>
+    </div>
+    <div class="item">
+      <span>Post Name 2</span>
+    </div>
+    <div class="item">
+      <span>Post Name 3</span>
+    </div>
+  </section>
+  <section class="section2">
+    <div class="item">
+      <span>Post Name 4</span>
+    </div>
+    <div class="item">
+      <span>Post Name 5</span>
+    </div>
+    <div class="item">
+      <span>Post Name 6</span>
+    </div>
+  </section>
+</div>
+
+
+<!--Contact-->
+<div class="background">
+  <div class="container">
+    <div class="screen">
+      <div class="screen-header">
+        <div class="screen-header-left">
+          <div class="screen-header-button close"></div>
+          <div class="screen-header-button maximize"></div>
+          <div class="screen-header-button minimize"></div>
+        </div>
+        <div class="screen-header-right">
+          <div class="screen-header-ellipsis"></div>
+          <div class="screen-header-ellipsis"></div>
+          <div class="screen-header-ellipsis"></div>
+        </div>
+      </div>
+      <div class="screen-body">
+        <div class="screen-body-item left">
+          <div class="app-title">
+            <span>Contact</span>
+            <span>Us</span>
+          </div>
+          <div class="app-sub-title">Let's Craft Brilliance Together</div>
+          <div class="app-contact">CONTACT INFO : +94 813 729 350</div>
+        </div>
+        <div class="screen-body-item">
+          <div class="app-form">
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="NAME" >
+            </div>
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="EMAIL">
+            </div>
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="CONTACT NO">
+            </div>
+            <div class="app-form-group message">
+              <input class="app-form-control" placeholder="MESSAGE">
+            </div>
+            <div class="app-form-group buttons">
+              <button class="app-form-button">CANCEL</button>
+              <button class="app-form-button">SEND</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 <!--javascript-->
+<script src="loader.js"></script>
 <!-- AOS Library JS -->
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>
