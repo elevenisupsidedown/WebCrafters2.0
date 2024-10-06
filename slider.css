@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+    
+    
+/* laptop container */
+.laptop-container {
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+  }
+  
+  /* laptop image */
+  .laptop-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Position the slider to fit inside the laptop screen */
+  .slider-container {
+    position: absolute;
+    top: 18%;  /* Adjust this value to fit your laptop image */
+    left: 22.5%; /* Adjust for horizontal centering inside the screen */
+    width: 55.1%; /* Adjust based on the size of the laptop screen */
+    height: 75%; /* Adjust for the height of the screen */
+    overflow: hidden;
+    border-radius: 10px; /* Optional, gives rounded edges */
+  }
+  
+  /*slider */
+  .slider {
+    display: flex;
+    width: 300%; /* 100% for each image in the slider */
+    height: 100%;
+    transition: transform 0.5s ease;
+  }
+  
+  /*  individual slider images */
+  .slider img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover; /* Ensures images fit nicely */
+  }
