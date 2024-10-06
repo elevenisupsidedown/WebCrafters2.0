@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", system-ui;
+    background-color: #000000;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+
+}
+
+/* Layout for the main body */
+.main-body {
+    margin:30px 50px 50px 50px;
+}
+ .main-body h2{
+    font-family: "Poppins", system-ui;
+    background: linear-gradient(to right, #9081B1, #7790BB, #63A7CF, #3BBCE3, #1FDAFF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.6vw;
+    font-weight: bold;
+
+      
+ }
+/* Columns */
+.row.gutters {
+    width: 100%;
+    margin-top:40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col1 {
+    width:25%;
+    height:80%;
+    float:left;
+}
+
+.col3 {
+    width:70%;
+    float: right;
+    margin-bottom:30px;
+}
+
+/* Card Styles */
+.card {
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.text.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-upload-photo{
+    position:relative;
+    display:inline-block
+}
+.text.center img {
+    border-radius: 50%;
+    border:2px solid black;
+    transition: opacity 0.3s ease;
+}
+
+.text-center-img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+.upload .image{
+    text-align: center; 
+    margin: 0
+}
+.icon-upload-photo:hover .text-center-img-hover {
+    opacity: 1
+}
+.icon-upload-photo:hover .rounded-circle{
+    opacity:0.4;
+}
+
+.text.center h4 {
+    margin: 10px 0;
+}
+
+.john-doe-text{
+    color:#616060;
+}
+
+.btn1 {
+    background-image: linear-gradient(to right, #E03E89, #C9549A);
+    color: rgb(255, 255, 255);
+    font-weight: 400px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.btn1:hover {
+    transform: scale(0.99); 
+    box-shadow: 0 0 4px rgba(251, 141, 255, 0.7); 
+}
+.button-margin{
+    margin-top:25px;
+}
+.column1, .column2 {
+    flex: 50%;
+    padding: 10px 0;
+}
+
+.column1 .mb-0{
+    color:#838383;
+    font-size: 1vw;
+    margin-top:10px;
+    margin-bottom:-5px;
+}
+.column1 .text-secondary{
+    color:#616060;
+}
+.column1 h6 {
+    font-weight: 600;
+}
+.column1-text{
+    margin-left:22px;
+    color: rgb(77, 75, 75);
+}
+.column2 {
+    text-align: right;
+}
+.card-body hr{
+    margin:8px;
+}
