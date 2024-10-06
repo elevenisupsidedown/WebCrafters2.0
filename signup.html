@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" href="signup.css">
+    <link rel="icon" type="image" href=""/>
+    <!--Poppins Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--Nunito Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- AOS Library CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="screen">
+                <div class="screen-header">
+                    <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                    </div>
+                </div>
+                <div class="screen-body">
+                    <div class="screen-body-item">
+                        <h1 class="app-title">Sign In</h1>
+                        <form class="app-form" action="login_process.php" method="POST">
+                        <h2 class="form-h2">About You</h2>
+                        <div class="clearfix">
+                            <div class="app-form-group left">
+                                <label for="username">Name</label>
+                                <input id="username" class="app-form-control" type="text" name="username" placeholder="Enter your username" required>
+                            </div>
+                            <div class="app-form-group right">
+                                <label for="password">Password</label>
+                                <input id="password" class="app-form-control" type="password" name="password" placeholder="Enter your password" required>
+                            </div>
+                        </div>
+                        <div class="clearfix">
+                            <div class="app-form-group left">
+                                <label for="email">Email</label>
+                                <input id="email" class="app-form-control" type="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="app-form-group right">
+                                <label for="contact">Contact Number</label>
+                                <input id="contact" class="app-form-control" type="tel" name="contact" placeholder="Enter your contact number">
+                            </div>
+                        </div>
+                            <div class="app-form-group left">
+                                <label for="address">Address</label>
+                                <textarea id="address" class="app-form-control address" type="text" name="address" rows="4" placeholder="Enter your address" required></textarea>
+                            </div>
+
+                            <h2 class="form-h2">About Your Business</h2>
+                            <div class="clearfix">
+                                <div class="app-form-group left">
+                                    <label for="username">Company name (Optional)</label>
+                                    <input id="username" class="app-form-control" type="text" name="username" placeholder="Enter only if you represent a business">
+                                </div>
+                                <div class="app-form-group right">
+                                    <label for="password">Job Title</label>
+                                    <input id="password" class="app-form-control" type="password" name="password" placeholder="Enter your job title" required>
+                                </div>
+                            </div>
+                            <div class="clearfix">
+                                <div class="app-form-group left">
+                                    <label for="username">Industry</label>
+                                    <input id="username" class="app-form-control" type="text" name="username" placeholder="Enter the industry you work for">
+                                </div>
+                                <div class="app-form-group right">
+                                    <label for="password">Company size</label>
+                                    <input id="password" class="app-form-control" type="password" name="password" placeholder="Small/ Medium/ Large scale" required>
+                                </div>
+                            </div>
+                            <div class="app-form-group left">
+                                <label for="address">Business Goals</label>
+                                <textarea id="address" class="app-form-control address" type="text" name="address" rows="4" placeholder="Tell us about your objectives in a few words" required></textarea>
+                            </div>
+                            <div class="clearfix">
+                            <div class="check"><input type="checkbox" id="news-checkbox">
+                                <label for="news-checkbox" class="checklabel">Sign me up for the newsletter!</label>                                
+                            </div>
+                            <div class="app-form-group buttons">
+                                <button type="submit" class="app-form-button">SIGN IN</button>
+                            </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
