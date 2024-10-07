@@ -123,6 +123,14 @@ li:nth-child(1) a:hover{
     text-decoration-thickness: 0.2vw;
 }
 
+.diveinbutton{
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, #E03E89, #C9549A, #B26CAF, #9081B1, #7790BB, #63A7CF, #3BBCE3, #1FDAFF);
+    color:aliceblue;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
 
 /*Headers*/
 .header-button {
