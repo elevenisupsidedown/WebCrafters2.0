@@ -139,6 +139,15 @@ li:nth-child(1) a:hover{
 }
 
 .content-header {
+@media(max-width:785px){
+    .diveinbutton{
+        font-size: 10px;
+    }
+}
+}
+
+/*Headers*/
+.header-button {
     display: inline-block;
     vertical-align: top;
     width: 40%;
@@ -164,7 +173,7 @@ li:nth-child(1) a:hover{
 
 .section-sub {
     font-family: "Nunito", system-ui;
-    font-weight: 300;
+    font-weight: 350;
     font-size: 2.1vw;
     margin-left: 2vw;
     line-height: 4vw;
@@ -192,3 +201,35 @@ li:nth-child(1) a:hover{
     margin: 0 auto;
 }
 
+.section-header.contact {
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-size: 5vw;
+    margin-top: 0.8vw;
+    margin-left: 8vw;
+    line-height: 7vw;
+    background-image: linear-gradient(to right, #E03E89, #C9549A, #B26CAF, #9081B1, #7790BB, #63A7CF, #3BBCE3, #1FDAFF);
+    background-clip: text;
+    color: transparent;
+}
+
+.section-sub.contact {
+    font-family: "Nunito", system-ui;
+    font-weight: 300;
+    font-size: 1.9vw;
+    margin-left: 8vw;
+    line-height: 4vw;
+    margin-top: -3vw;
+    margin-right: -3vw;
+    color: white;
+}
+
+.gotosection.contact{
+    font-family: "Nunito", system-ui;
+    font-weight: 250;
+    font-size: 1.6vw;
+    margin-left: 7vw;
+    margin-top: -3vw;
+    color: #b68ece;
+
+}

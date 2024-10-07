@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="solutions.css">
     <link rel="stylesheet" href="loader.css">
     <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="cardanimnew.css">
+    <link rel="stylesheet" href="team.css">
     <link rel="stylesheet" href="contactus.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="landing2.css">
+    <link rel="stylesheet" href="counter.css">
     <link rel="icon" type="image" href=""/>
     <!--Poppins Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,9 +27,6 @@
     
     <!-- AOS Library CSS -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-
-    <!--Font Awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
     
 </head>
@@ -115,6 +113,23 @@
     <hr class="section-hr">
 </div>
 
+<!--Solutions Header-->
+<div class="section">
+  <div class="clearfix">
+    <div class="hero-img">
+      <img class="image1" src="Assets/Landing/2.png">
+      <img class="image2" src="Assets/Landing/3.png">
+      <img class="image3" src="Assets/Landing/4.png">
+      <img class="image4" src="Assets/Landing/5.png">
+    </div>
+      <div class="content-header">
+          <h1 class="section-header" data-aos="fade-up">Solutions</h1>
+          <p class="section-sub">Empowering your business with impactful, <br>smart solutions</p>
+          <a href=""><p class="gotosection">Check out our services >></p></a>
+      </div>
+  </div>
+</div>
+
 <!--Solutions-->
 <section class="portfolio2">
 <div class="card1" tabindex="0" data-aos="fade-up" data-aos-duration="1000">
@@ -149,13 +164,27 @@
     </div>
     </div>
 </section>
-
+<hr class="section-hr">
 
 <!--Team Header-->
 <div class="section">
   <div class="clearfix">
+    <div class="counter-container">
+      <div class="counter-item">
+          <span class="counter" data-target="20">0</span>
+          <p>Projects</p>
+      </div>
+      <div class="counter-item">
+          <span class="counter" data-target="50">0</span>
+          <p>Employees</p>
+      </div>
+      <div class="counter-item">
+          <span class="counter" data-target="100">0</span>
+          <p>Clients</p>
+      </div>
+  </div>
     <div class="hero-img">
-      HI CUBE
+   
     </div>
       <div class="content-header">
           <h1 class="section-header" data-aos="fade-up">Meet<br>the Team</h1>
@@ -164,7 +193,6 @@
       </div>
   </div>
 </div>
-<hr class="section-hr">
 
 <!--Team-->
 <div class="container">
@@ -191,10 +219,17 @@
     </div>
   </section>
 </div>
+<hr class="section-hr">
 
-
-<!--Contact-->
-<div class="background">
+<!--Contact Header-->
+<div class="section">
+  <div class="clearfix">
+      <div class="content-header contact">
+          <h1 class="section-header contact" data-aos="fade-up">Meet<br>the Team</h1>
+          <p class="section-sub contact">Creative Minds, United Vision</p>
+          <a href=""><p class="gotosection contact">Meet the creators<br>behind the experience >></p></a>
+      </div>
+      <!--Contact-->
   <div class="container">
     <div class="screen">
       <div class="screen-header">
@@ -206,12 +241,7 @@
       </div>
       <div class="screen-body">
         <div class="screen-body-item left">
-          <div class="app-title">
-            <span>Contact</span>
-            <span>Us</span>
-          </div>
-          <div class="app-sub-title">Let's Craft Brilliance Together</div>
-          <div class="app-contact">CONTACT INFO : +94 813 729 350</div>
+          <div class="app-title">Let's Craft Brilliance Together</div>
         </div>
         <div class="screen-body-item">
           <div class="app-form">
@@ -228,7 +258,6 @@
               <input class="app-form-control" placeholder="MESSAGE">
             </div>
             <div class="app-form-group buttons">
-              <button class="app-form-button">CANCEL</button>
               <button class="app-form-button">SEND</button>
             </div>
           </div>
@@ -236,7 +265,9 @@
       </div>
     </div>
   </div>
+  </div>
 </div>
+
 <!--Footer-->
 <!--Footer-->
 <footer>
@@ -284,6 +315,7 @@
 
 <!--javascript-->
 <script src="loader.js"></script>
+<script src="script.js"></script>
 <!-- AOS Library JS -->
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>
