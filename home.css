@@ -124,12 +124,12 @@ li:nth-child(1) a:hover{
 }
 
 .diveinbutton{
-    padding:0.8% 1.2%;
+    padding:1.5% 2%;
     background-image: linear-gradient(to right, #E03E89, #C9549A, #B26CAF, #9081B1);
     color:aliceblue;
-    border-radius: 15px;
-    font-size: 15px;
-    box-shadow:1px 1px 2px 2px #2c2c2c;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 85%;
 }
 .diveinbutton:hover{
     background-image: linear-gradient(to right, #B26CAF, #9081B1, #7790BB, #63A7CF, #3BBCE3);
