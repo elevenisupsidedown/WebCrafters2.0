@@ -39,6 +39,7 @@
     background-color: #000000;
     z-index: 9999;
     opacity: 1; 
+    transition: opacity 1.5s ease-out;
 }
 
 @keyframes rotate {
