@@ -139,6 +139,14 @@ li:nth-child(1) a:hover{
 }
 
 .content-header {
+@media(max-width:785px){
+    .diveinbutton{
+        font-size: 10px;
+    }
+}
+
+/*Headers*/
+.header-button {
     display: inline-block;
     vertical-align: top;
     width: 40%;
