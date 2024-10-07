@@ -1,3 +1,4 @@
+
 *,
 *:before,
 *:after {
@@ -293,6 +294,7 @@ textarea {
 .app-form-button:hover {
     color: #75305a;
 }
+
 
 @media screen and (max-width: 1116px) {
     .app-title {
