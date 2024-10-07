@@ -66,9 +66,9 @@
 
 .item {
     box-shadow:
-    inset var(--itemWidthMinus) var(--itemWidthMinus) 0 rgba(0, 0, 0, 0.1), /* Reduced opacity */
-    inset var(--itemWidth) var(--itemWidthMinus) 0 rgba(201, 84, 154, 0.4), /* Reduced opacity */
-    inset var(--itemWidthMinus) var(--itemWidth) 0 rgba(119, 144, 187, 0.4), /* Reduced opacity */
+    inset var(--itemWidthMinus) var(--itemWidthMinus) 0 rgba(0, 0, 0, 0.3), /* Reduced opacity */
+    inset var(--itemWidth) var(--itemWidthMinus) 0 rgba(201, 84, 154, 0.3), /* Reduced opacity */
+    inset var(--itemWidthMinus) var(--itemWidth) 0 rgba(119, 144, 187, 0.3), /* Reduced opacity */
     inset var(--itemWidth) var(--itemWidth) 0 rgba(59, 188, 227, 0.4), /* Reduced opacity */
     0 0 10vh rgba(95, 169, 253, 0.1);
     transition: box-shadow ease-in-out .6s, color ease-in-out .5s;
@@ -95,14 +95,26 @@
     color: transparent;
 }
 
-.item > span {
+.team-name, .team-post {
     width: 80%;
     user-select: none;
-    font-family: "Poppins", system-ui;
-    font-weight: 300;
-    margin-top: 1rem;
-    font-size: 1em;
     text-align: center;
+    margin: 0;
+}
+
+.team-name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Poppins", system-ui;
+    color: #FFFFFF;
+}
+
+.team-post{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: "Nunito", system-ui;
+    margin-top: 0.5rem;
+    font-size: 1rem;
 }
 
 h3 {
