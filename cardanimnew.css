@@ -22,6 +22,12 @@
     margin: 2rem 0;
 }
 
+@media(max-width:1125px){
+    .section1,.section2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 .section1 > .item:nth-of-type(1) {
     background-image: url(Assets/Team/1.png);
     background-size: cover;
@@ -124,3 +130,13 @@ h3 {
     font-weight: 200;
     margin-bottom: 1rem;
 }
+
+@media(max-width:670px){
+    .team-name{
+        font-size: 1rem;
+    }
+    .team-post{
+        font-size: 0.8rem;
+    }
+}
+
