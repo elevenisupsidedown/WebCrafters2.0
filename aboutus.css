@@ -17,7 +17,10 @@
 }
 
 .timeline-event h2{
-    color: white;
+    display: inline;
+    background-image: linear-gradient(to right,#FF80BF, #D6C6E0, #b68ece);
+    background-clip: text;
+    color: transparent;
     font-family: "Poppins", system-ui;
     font-weight: 600;
     margin: 0;
@@ -25,7 +28,10 @@
 }
 
 .timeline-event h1{
-    color: white;
+    display: inline-block;
+    background-image: linear-gradient(to right, #FF80BF, #D6C6E0, #b68ece);
+    background-clip: text;
+    color: transparent;
     font-family: "Poppins", system-ui;
     font-weight: 500;
     margin: 0;
@@ -44,7 +50,7 @@
     content: '';
     width: 2vw;
     height: 2vw;
-    background-image: linear-gradient(90deg, #ff5a99, #ff5aff, #8d6cb2, #63A7CF);
+    background-image: linear-gradient(90deg, #FF80BF, #b68ece,#D6C6E0);
     border-radius: 50%;
     position: absolute;
     left: -2.5vw;

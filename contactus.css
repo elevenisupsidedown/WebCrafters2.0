@@ -65,15 +65,15 @@ input {
     background: white;
 }
 
-.screen-header-button.close {
+.screen-header-button.one {
     background: #F63C83;
 }
 
-.screen-header-button.maximize {
+.screen-header-button.two {
     background: #B26CAF;
 }
 
-.screen-header-button.minimize {
+.screen-header-button.three {
     background: #1FDAFF;
 }
 
