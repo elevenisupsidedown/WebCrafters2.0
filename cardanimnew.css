@@ -2,8 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 80vw;
     flex-direction: column;
+    flex-wrap: wrap;
+    gap: 4vw;
+    margin-left: 3vw;
+    margin-bottom: 7vw;
 }
 
 .section1, .section2 {
@@ -19,42 +23,42 @@
 }
 
 .section1 > .item:nth-of-type(1) {
-    background-image: url(Assets/1.png);
+    background-image: url(Assets/Team/1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .section1 > .item:nth-of-type(2) {
-    background-image: url(Assets/2.png);
+    background-image: url(Assets/Team/2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .section1 > .item:nth-of-type(3) {
-    background-image: url(Assets/3.png);
+    background-image: url(Assets/Team/3.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.section1 > .item:nth-of-type(1) {
-    background-image: url(Assets/4.png);
+.section2 > .item:nth-of-type(1) {
+    background-image: url(Assets/Team/4.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .section2 > .item:nth-of-type(2) {
-    background-image: url(Assets/5.png);
+    background-image: url(Assets/Team/5.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .section2 > .item:nth-of-type(3) {
-    background-image: url(Assets/6.png);
+    background-image: url(Assets/Team/6.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,11 +66,11 @@
 
 .item {
     box-shadow:
-        inset var(--itemWidthMinus) var(--itemWidthMinus) 0 #000000,
-        inset var(--itemWidth) var(--itemWidthMinus) 0 #C9549A,
-        inset var(--itemWidthMinus) var(--itemWidth) 0 #7790BB,
-        inset var(--itemWidth) var(--itemWidth) 0 #3BBCE3,
-        0 0 20vh rgba(95, 169, 253, 0.178);
+    inset var(--itemWidthMinus) var(--itemWidthMinus) 0 rgba(0, 0, 0, 0.1), /* Reduced opacity */
+    inset var(--itemWidth) var(--itemWidthMinus) 0 rgba(201, 84, 154, 0.4), /* Reduced opacity */
+    inset var(--itemWidthMinus) var(--itemWidth) 0 rgba(119, 144, 187, 0.4), /* Reduced opacity */
+    inset var(--itemWidth) var(--itemWidth) 0 rgba(59, 188, 227, 0.4), /* Reduced opacity */
+    0 0 10vh rgba(95, 169, 253, 0.1);
     transition: box-shadow ease-in-out .6s, color ease-in-out .5s;
     width: var(--itemWidth);
     height: var(--itemWidth);

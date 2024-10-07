@@ -1,0 +1,80 @@
+:root {
+    --hover-scale: 1.1; 
+    --transition-duration: 0.3s; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing-graphic {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    z-index: 0;
+    margin-top: 3vw;
+    margin-right: -10vw;
+}
+
+.📺 {
+    width: 300px; 
+    height: 400px; 
+    position: relative;
+    perspective: 500px;
+    transition: transform var(--transition-duration);
+}
+
+.📺:hover {
+    transform: translateY(-10px); 
+}
+
+.🍌, .🍇, .🍦 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform var(--transition-duration);
+}
+
+.🍦 {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/577128/popsicle-tin.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translateY(20px); 
+}
+
+.🍦:hover {
+    transform: translateY(0); 
+}
+
+.🍌 {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/577128/banana-tin.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translateY(20px); 
+}
+
+.🍌:hover {
+    transform: translateY(0); 
+}
+
+.🍇 {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/577128/blueberry-tin.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translateY(20px); 
+}
+
+.🍇:hover {
+    transform: translateY(0); 
+}
+
+.🍌, .🍇, .🍦 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: transform var(--transition-duration);
+}
