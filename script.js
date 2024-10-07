@@ -24,22 +24,21 @@ function startCounter(counter) {
         let increment;
         let timeout;
 
-        
         const index = Array.from(counters).indexOf(counter); 
 
         if (index === 0) {  
             increment = target / 100;
-            timeout = 40;   
-        } else if (index === 1) {  
+            timeout = 40;  
+        } else if (index === 1) { 
             increment = target / 50;
             timeout = 20;   
-        } else if (index === 2) {  
-            increment = target / 50;
-            timeout = 20;  
+        } else if (index === 2) { 
+            increment = target / 80;
+            timeout = 10;   
         }
 
         if (current < target) {
-            counter.innerText = ${Math.ceil(current + increment)};
+            counter.innerText = `${Math.ceil(current + increment)}`;
             setTimeout(updateCounter, timeout);
         } else {
             counter.innerText = target;
