@@ -124,36 +124,71 @@ li:nth-child(1) a:hover{
 }
 
 .diveinbutton{
-    padding:1.5% 2%;
+    padding: 1.5% 2%;
     background-image: linear-gradient(to right, #E03E89, #C9549A, #B26CAF, #9081B1);
     color:aliceblue;
     border-radius: 20px;
+    border: none;
     font-size: 20px;
-    margin-left: 85%;
+    margin-left: 80%;
+    margin-top: -2vw;
+
 }
 .diveinbutton:hover{
     background-image: linear-gradient(to right, #B26CAF, #9081B1, #7790BB, #63A7CF, #3BBCE3);
 }
 
-
-/*Headers*/
-.header-button {
+.content-header {
     display: inline-block;
-    width: 8px;
-    height: 8px;
-    margin-right: 3px;
-    border-radius: 8px;
-    background: white;
+    vertical-align: top;
+    width: 40%;
+    margin-left: 3%;
 }
 
-.header-button.one {
-    background: #F63C83;
+.section-header {
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-size: 5.5vw;
+    margin-top: 0.8vw;
+    margin-left: 2vw;
+    line-height: 7vw;
+    background-image: linear-gradient(to right, #E03E89, #C9549A, #B26CAF, #9081B1, #7790BB, #63A7CF, #3BBCE3, #1FDAFF);
+    background-clip: text;
+    color: transparent;
 }
 
-.header-button.two {
-    background: #B26CAF;
+.section{
+    align-content: center;
+    height: 100vh;
 }
 
-.header-button.three {
-    background: #1FDAFF;
+.section-sub {
+    font-family: "Nunito", system-ui;
+    font-weight: 300;
+    font-size: 2.1vw;
+    margin-left: 2vw;
+    line-height: 4vw;
+    margin-top: -3vw;
+    margin-right: -3vw;
+    color: white;
 }
+
+.gotosection{
+    font-family: "Nunito", system-ui;
+    font-weight: 300;
+    font-size: 1.9vw;
+    margin-left: 1vw;
+    margin-top: -3vw;
+    color: #b68ece;
+
+}
+
+.section-hr{
+    background: #b68ece;
+    border: none;
+    align-content: center;
+    height: 0.08vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
