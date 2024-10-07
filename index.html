@@ -28,8 +28,6 @@
     <!-- AOS Library CSS -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     
-    <!--Font Awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
 </head>
 
@@ -40,11 +38,10 @@
     <nav id="navbar" class="navbar">
         <ul>
             <li class="logo"><a href="" target="_blank"><img id="logoimg" class="logoimg" src="Assets/Logo/logo.png" alt="logo"></a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Solutions</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Team</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -61,11 +58,11 @@
           <img class="image4" src="Assets/Landing/5.png">
         </div>
     </div>
-    <button class="diveinbutton">DIVE IN!</button>
+    <a href="#aboutus"><button class="diveinbutton">DIVE IN!</button></a>
 </div>
 
 <!--About Us Header-->
-<div class="section">
+<div class="section" id="aboutus">
   <div class="clearfix">
     <div class="hero-img">
       <img class="image1" src="Assets/Aboutus/8.png">
@@ -76,13 +73,13 @@
       <div class="content-header">
           <h1 class="section-header" data-aos="fade-up">About <br>Us</h1>
           <p class="section-sub">NovaUX is a UI/UX Design Agency <br>based in Colombo, Sri Lanka</p>
-          <a href=""><p class="gotosection">Explore our journey >></p></a>
+          <a href="#aboutus1"><p class="gotosection">Explore our journey >></p></a>
       </div>
   </div>
 </div>
 
 <!--About Us Section-->
-<div class="aboutus">
+<div class="aboutus" id="aboutus1">
   <hr class="section-hr">
     <div class="timeline">
         <div class="timeline-event" data-aos="fade-up">
@@ -116,7 +113,7 @@
 </div>
 
 <!--Solutions Header-->
-<div class="section" id="solution">
+<div class="section" id="solutions">
   <div class="clearfix">
     <div class="hero-img">
       <img class="image1" src="Assets/SolutionsHeader/5.png">
@@ -127,13 +124,13 @@
       <div class="content-header">
           <h1 class="section-header" data-aos="fade-up">Solutions</h1>
           <p class="section-sub">Empowering your business with impactful, <br>smart solutions</p>
-          <a href=""><p class="gotosection">Check out our services >></p></a>
+          <a href="#solutions1"><p class="gotosection">Check out our services >></p></a>
       </div>
   </div>
 </div>
 
 <!--Solutions-->
-<section class="portfolio2">
+<section class="portfolio2" id="solutions1">
 <div class="card1" tabindex="0" data-aos="fade-up" data-aos-duration="1000">
     <img src="Assets/Solutions/1.png" alt="Card Image 1">
     <h3 class="card-h3">Web Design</h3>
@@ -171,7 +168,7 @@
 
 
 <!--Team Header-->
-<div class="section">
+<div class="section" id="team">
   <div class="clearfix">
     <div class="counter-container">
       <div class="counter-item">
@@ -193,13 +190,13 @@
       <div class="content-header">
           <h1 class="section-header" data-aos="fade-up">Meet<br>the Team</h1>
           <p class="section-sub">Creative Minds, United Vision</p>
-          <a href=""><p class="gotosection">Meet the creators<br>behind the experience >></p></a>
+          <a href="#team1"><p class="gotosection">Meet the creators<br>behind the experience >></p></a>
       </div>
   </div>
 </div>
 
 <!--Team-->
-<div class="container4">
+<div class="container4" id="team1">
   <section class="section1">
     <div class="item">
       <span class="team-name">Ms. Shamalka Kariyawasam</span><span class="team-post">UI Designer</span>
@@ -226,7 +223,7 @@
 <hr class="section-hr">
 
 <!--Contact Header-->
-<div class="section">
+<div class="section" id="contact">
   <div class="clearfix">
       <div class="content-header contact">
           <h1 class="section-header contact" data-aos="fade-up">Contact<br>Us</h1>
@@ -261,7 +258,7 @@
               <input class="app-form-control" placeholder="MESSAGE">
             </div>
             <div class="app-form-group buttons">
-              <button class="app-form-button">SEND</button>
+              <a href="#navbar"><button class="app-form-button">SEND</button></a>
             </div>
           </div>
         </div>
@@ -278,7 +275,7 @@
     <div id="particles-js"></div>
       <div class="footer-row">
           <div class="footer-column1">
-            <a href="#"><img src="Assets/Logo/logo.png" class="logo">
+            <a href="#navbar"><img src="Assets/Logo/logo.png" class="logo">
               <h3>NovaUX</h3>
               <p>"creating experiences <br>that last"</p></a>
           </div>
@@ -288,7 +285,6 @@
                   <ul class="quick-links-links">
                       <li><a href="#">About Us</a></li>
                       <li><a href="#">Solutions</a></li>
-                      <li><a href="#">Portfolio</a></li>
                       <li><a href="#">Team</a></li>
                       <li><a href="#">Contact Us</a></li>
                   </ul>

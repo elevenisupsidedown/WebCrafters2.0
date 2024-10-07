@@ -57,7 +57,7 @@ footer {
 }
 .footer-column1 img{
     width:200px;
-    height:150px;
+    height:200px;
 }
 .footer-column1{     
  
@@ -144,5 +144,6 @@ footer {
 .footer-bottom p a:hover {
     text-decoration: underline; 
 }
+
 
 
