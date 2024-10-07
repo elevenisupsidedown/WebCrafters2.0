@@ -127,7 +127,7 @@ li:nth-child(1) a:hover{
     padding:1.5% 2%;
     background-image: linear-gradient(to right, #E03E89, #C9549A, #B26CAF, #9081B1);
     color:aliceblue;
-    border-radius: 15px;
+    border-radius: 20px;
     font-size: 20px;
     margin-left: 85%;
 }
