@@ -1,0 +1,21 @@
+/*Headers*/
+.header-button {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 3px;
+    border-radius: 8px;
+    background: white;
+}
+
+.header-button.one {
+    background: #F63C83;
+}
+
+.header-button.two {
+    background: #B26CAF;
+}
+
+.header-button.three {
+    background: #1FDAFF;
+}

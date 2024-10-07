@@ -77,3 +77,7 @@
 .hero-img:hover .image4 {
     transform: translateY(3vw);
 }
+
+.hero{
+    height: 100vh;
+}
