@@ -212,7 +212,7 @@ li:nth-child(1) a:hover{
     font-size: 5vw;
     margin-top: 0.8vw;
     margin-left: 8vw;
-    line-height: 7vw;
+    line-height: 6vw;
     background-image: linear-gradient(to right, #E03E89, #C9549A, #B26CAF, #9081B1, #7790BB, #63A7CF, #3BBCE3, #1FDAFF);
     background-clip: text;
     color: transparent;
@@ -232,7 +232,7 @@ li:nth-child(1) a:hover{
 .gotosection.contact{
     font-family: "Nunito", system-ui;
     font-weight: 250;
-    font-size: 1.6vw;
+    font-size: 1.8vw;
     margin-left: 7vw;
     margin-top: -3vw;
     color: #b68ece;
