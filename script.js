@@ -35,8 +35,8 @@ function startCounter(counter) {
             increment = target / 50;
             timeout = 20;   
         } else if (index === 2) {  
-            increment = target / 25;
-            timeout = 10;  
+            increment = target / 50;
+            timeout = 20;  
         }
 
         if (current < target) {
