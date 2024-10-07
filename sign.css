@@ -1,4 +1,4 @@
-/* Global Styles */
+
 *,
 *:before,
 *:after {
@@ -283,8 +283,7 @@ textarea {
     color: #75305a;
 }
 
-/* Responsive Design */
-/* Adjust font sizes and layouts for smaller screens */
+
 @media screen and (max-width: 1116px) {
     .app-title {
         font-size: 3rem;
