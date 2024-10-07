@@ -4,6 +4,7 @@
     flex-direction: column;  
     justify-content: center;
     align-items: center;
+    margin-right:-150px;
 }
 
 .counter-item {
@@ -18,12 +19,14 @@
 
 .counter {
     font-size: 2.5rem;
+    font-family:"Poppins", system-ui;
     color: #E03E89;
     display: block;
 }
 
 .counter-item p {
     font-size: 1.2rem;
+    font-family:"Poppins", system-ui;
     margin-top: 10px;
     color:#9081B1;
 }
