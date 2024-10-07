@@ -66,10 +66,10 @@
 
 .item {
     box-shadow:
-    inset var(--itemWidthMinus) var(--itemWidthMinus) 0 rgba(0, 0, 0, 0.3), /* Reduced opacity */
-    inset var(--itemWidth) var(--itemWidthMinus) 0 rgba(201, 84, 154, 0.3), /* Reduced opacity */
-    inset var(--itemWidthMinus) var(--itemWidth) 0 rgba(119, 144, 187, 0.3), /* Reduced opacity */
-    inset var(--itemWidth) var(--itemWidth) 0 rgba(59, 188, 227, 0.4), /* Reduced opacity */
+    inset var(--itemWidthMinus) var(--itemWidthMinus) 0 rgba(0, 0, 0, 0.3),
+    inset var(--itemWidth) var(--itemWidthMinus) 0 rgba(201, 84, 154, 0.3),
+    inset var(--itemWidthMinus) var(--itemWidth) 0 rgba(119, 144, 187, 0.3), 
+    inset var(--itemWidth) var(--itemWidth) 0 rgba(59, 188, 227, 0.4), 
     0 0 10vh rgba(95, 169, 253, 0.1);
     transition: box-shadow ease-in-out .6s, color ease-in-out .5s;
     width: var(--itemWidth);
