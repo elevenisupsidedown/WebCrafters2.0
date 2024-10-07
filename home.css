@@ -135,7 +135,11 @@ li:nth-child(1) a:hover{
 .diveinbutton:hover{
     background-image: linear-gradient(to right, #B26CAF, #9081B1, #7790BB, #63A7CF, #3BBCE3);
 }
-
+@media(max-width:785px){
+    .diveinbutton{
+        font-size: 10px;
+    }
+}
 
 /*Headers*/
 .header-button {
