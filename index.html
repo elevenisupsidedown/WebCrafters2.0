@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="landing2.css">
     <link rel="stylesheet" href="counter.css">
+    <link rel="stylesheet" href="slider.css">
     <link rel="icon" type="image" href=""/>
     <!--Poppins Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -168,6 +169,43 @@
 </section>
 <hr class="section-hr">
 
+<!--Portfolio Header-->
+<div class="section">
+  <div class="clearfix">
+    <div class="hero-img">
+      <img class="image1" src="Assets/Landing/2.png">
+      <img class="image2" src="Assets/Landing/3.png">
+      <img class="image3" src="Assets/Landing/4.png">
+      <img class="image4" src="Assets/Landing/5.png">
+    </div>
+      <div class="content-header">
+          <h1 class="section-header" data-aos="fade-up">Portfolio</h1>
+          <p class="section-sub">Wonder why our clients choose us?</p>
+          <a href=""><p class="gotosection">Explore our work >></p></a>
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="swiper">
+      <!-- wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="../WebCrafters2.0/services/1.png"></div>
+        <div class="swiper-slide"><img src="../WebCrafters2.0/services/2.png"></div>
+        <div class="swiper-slide"><img src="../WebCrafters2.0/services/3.png"></div>
+        <div class="swiper-slide"><img src="../WebCrafters2.0/services/4 (2).png"></div>
+        <div class="swiper-slide"><img src="../WebCrafters2.0/services/5.png"></div>
+      </div>
+      <!-- pagination -->
+      <div class="swiper-pagination"></div>
+    
+      <!-- navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div> 
+</div>
+<hr class="section-hr">
+
 <!--Team Header-->
 <div class="section">
   <div class="clearfix">
@@ -317,6 +355,29 @@
 <!--javascript-->
 <script src="loader.js"></script>
 <script src="script.js"></script>
+<script src="slider.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+    autoplay:{
+        delay:3000,
+        disableOnInteraction:false
+    },
+
+loop: true,
+
+pagination: {
+el: '.swiper-pagination',
+clickable:true,
+},
+
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev',
+},
+
+});
+</script>
 <!-- AOS Library JS -->
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>
