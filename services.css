@@ -23,9 +23,9 @@ body{
 }
 
 .swiper .swiper-button-prev, .swiper .swiper-button-next{
-    color: rgb(0, 0, 0);
+    color:black;
 }
 
 .swiper .swiper-pagination-bullet-active{
-    background: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, #E03E89, #C9549A, #B26CAF, #9081B1, #7790BB, #63A7CF, #3BBCE3, #1FDAFF);
 }

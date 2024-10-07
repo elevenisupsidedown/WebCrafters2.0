@@ -138,8 +138,8 @@ li:nth-child(1) a:hover{
 }
 
 .diveinbutton{
-    padding: 10px 20px;
-    background-image: linear-gradient(to right, #E03E89, #C9549A, #B26CAF, #9081B1, #7790BB, #63A7CF, #3BBCE3, #1FDAFF);
+    padding:0.8% 1.2%;
+    background-image: linear-gradient(to right, #732348, #64294d, #70436d, #6a5e83, #536689, #45748d, #1f6176, #137183);
     color:aliceblue;
     border-radius: 15px;
     font-size: 15px;
