@@ -6,7 +6,8 @@
     <title>Sign Up</title>
 
     <link rel="stylesheet" href="signup.css">
-    <link rel="icon" type="image" href=""/>
+    <link rel="stylesheet" href="loader.css">
+    <link rel="icon" type="image" href="Assets/login.png"/>
     <!--Poppins Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,6 +23,9 @@
 </head>
 
 <body>
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
     <div class="background">
         <div class="container">
             <div class="screen">
@@ -35,7 +39,7 @@
                 <div class="screen-body">
                     <div class="screen-body-item">
                         <h1 class="app-title">Sign Up</h1>
-                        <form class="app-form" action="login_process.php" method="POST">
+                        <form class="app-form">
                         <h2 class="form-h2">About You</h2>
                         <div class="clearfix">
                             <div class="app-form-group left">
@@ -92,7 +96,7 @@
                                 <label for="news-checkbox" class="checklabel">Sign me up for the newsletter!</label>                                
                             </div>
                             <div class="app-form-group buttons">
-                                <button type="submit" class="app-form-button">SIGN UP</button>
+                                <a href="index.html" target="_blank"><button type="submit" class="app-form-button">SIGN UP</button></a>
                             </div>
                             </div>
                         </form>

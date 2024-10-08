@@ -129,23 +129,6 @@ input {
 }
 
 
-/*Line beneath contact us
-.app-title:after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    width: 4rem;
-    height: 4px;
-    background-image: linear-gradient(to right, #E03E89, #C9549A, #B26CAF, #9081B1, #7790BB, #63A7CF);
-}
-
-.app-title span {
-    line-height: 4rem;
-}
-*/
-
 .app-contact {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
