@@ -181,6 +181,8 @@ li:nth-child(1) a:hover{
 .section{
     align-content: center;
     height: 100vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .section-sub {
